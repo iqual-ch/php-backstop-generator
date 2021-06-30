@@ -84,7 +84,7 @@ const DEFAULT_SCENARIO = '
 
 $uris = [];
 
-if (($csvFile = fopen("pages.csv", "r")) !== FALSE) {
+if (($csvFile = fopen($params['uris'], "r")) !== FALSE) {
 	while (($data = fgetcsv($csvFile, 1000, ",")) !== FALSE) {
 		$uris[] = $data[0];
 	}
