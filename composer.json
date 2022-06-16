@@ -1,5 +1,5 @@
 {
-  "name": "qsdevops/php-backstop-generator",
+  "name": "iqual/php-backstop-generator",
   "description": "Backstop Generator based on PHP CLI script.",
   "type": "project",
   "require": {
