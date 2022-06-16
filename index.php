@@ -98,8 +98,8 @@ foreach ($uris as $page) {
 	$scenario = json_decode(DEFAULT_SCENARIO);
 
 	$scenario->label = $page;
-	$scenario->url = $backstopConfig['url'] . $page;
-	$scenario->referenceUrl = $backstopConfig['referenceUrl'] . $page;
+	$scenario->url = $backstopConfig['url'] . str_replace($backstopConfig['url'], '', $page);
+	$scenario->referenceUrl = $backstopConfig['referenceUrl'] . str_replace($backstopConfig['referenceUrl'], '', $page);
 
 	$scenarios[] = $scenario;
 }
