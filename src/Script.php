@@ -33,7 +33,7 @@ class Script {
          "ci_report":"backstop_data/ci_report"
       },
       "report":[
-         "browser"
+         "json"
       ],
       "engine":"puppeteer",
       "engineOptions":{
