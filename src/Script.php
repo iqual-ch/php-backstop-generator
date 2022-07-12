@@ -42,7 +42,7 @@ class Script {
          ]
       },
       "asyncCaptureLimit":5,
-      "asyncCompareLimit":50,
+      "asyncCompareLimit":5,
       "debug":false,
       "debugWindow":false
    }
