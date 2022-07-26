@@ -28,7 +28,7 @@ class Script {
       "paths":{
          "bitmaps_reference":"backstop_data/bitmaps_reference",
          "bitmaps_test":"backstop_data/bitmaps_test",
-         "engine_scripts":"backstop_data/engine_scripts",
+         "engine_scripts":"/app/engine_scripts",
          "html_report":"backstop_data/html_report",
          "ci_report":"backstop_data/ci_report"
       },
@@ -54,9 +54,9 @@ class Script {
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://example.com",
       "referenceUrl": "http://dev.example.com",
-      "readyEvent": "",
+      "readyEvent": "page_loaded",
       "readySelector": "",
-      "delay": 2000,
+      "delay": 500,
       "hideSelectors": [],
       "removeSelectors": [],
       "hoverSelector": "",
