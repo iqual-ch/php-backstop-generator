@@ -38,7 +38,9 @@ class Script {
       "engine":"puppeteer",
       "engineOptions":{
          "args":[
-            "--no-sandbox"
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+            "--disable-setuid-sandbox"
          ]
       },
       "asyncCaptureLimit":5,
