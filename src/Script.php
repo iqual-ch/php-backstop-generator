@@ -68,7 +68,7 @@ class Script {
       "selectors": [],
       "selectorExpansion": true,
       "expect": 0,
-      "misMatchThreshold": 2000,
+      "misMatchThreshold": 5.00,
       "requireSameDimensions": true
    }
    ';
